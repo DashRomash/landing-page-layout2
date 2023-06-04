@@ -1404,6 +1404,7 @@ align-items: center;
     width: 1440px;
     background-color: rgba(248, 250, 251, 1);
     margin-top: 74px;
+    position: relative;
 
 }
 
@@ -1466,10 +1467,6 @@ align-items: center;
 .sell-item-img{
     display: block;
    position: relative;
-}
-
-.sell-item-1img{
-
 }
 
 .sell-item-2img{
@@ -1642,35 +1639,49 @@ align-items: center;
     margin-bottom: 2px;
 }
 
-.sell-section-pages-wrapper{
-    margin-left: 144px;
-    width: 1152px;
-    height: 50px;
-    background-color: lightsalmon;
+.video-container{
+    width: 1440px;
+    height: 430px;
+    margin: 0 auto;
+    background-color: rgba(37, 51, 66, 1);
+}
+
+.video-title{
+    padding-top: 42px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.video-wrapper{
     display: flex;
-    justify-content: space-between;
-}
-
-.sell-section-lf-arrow{
-    display: block;
+    margin-left: 144px;
+    margin-right: 144px;
+    justify-content: space-around;
 
 }
 
-.sell-section-rt-arrow{
-    display: block;
-
+.video-item{
+    width: 367px;
+    height: 206px;
+    margin-bottom: 42px;
+    
 
 }
 
-.sell-section-pages-wrapper{
-    padding:0px 20px 0px 20px;
+.pages-wrapper{
+    display: flex;
+    justify-content: space-around;
     width: 125px;
     height: 9px;
+    margin: 0 auto;
+    align-items: start;
+
+}
+
+.arrow-wrapper{
     display: flex;
+    margin-left: 144px;
+    margin-right: 144px;
+    justify-content: space-between;
     align-items: center;
-
 }
 
-.sell-section-page{
-
-}
