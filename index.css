@@ -1797,8 +1797,8 @@ align-items: center;
 
 .feedback-form-title{
     position: absolute;
-    left: 344px;
-    top: 42px;
+    left: 282px;
+    top: 22px;
     margin-bottom: 30px;
     color: rgba(255, 255, 255, 1);
     font-weight: 700;
@@ -1815,9 +1815,9 @@ align-items: center;
 .form-container{
     position: absolute;
     left: 344px;
-    top: 130px;
+    top: 100px;
     width: 712px;
-    height: 290px;
+    height: 250px;
     display: grid;
     grid-template-columns: 50% 50%;
     column-gap: 24px;
@@ -1848,12 +1848,10 @@ align-items: center;
     background-color: #FFFFFF;
     border-radius: 3px;
     padding: 12px;
-
 }
 
 .title-text{
     grid-column: span 2;
-
 }
 
 .input-text{
@@ -1863,5 +1861,60 @@ align-items: center;
     background-color: #FFFFFF;
     border-radius: 3px;
     padding: 12px;
+}
+
+.input-name-inner{
+    width:280px;
+    outline: none !important;
+    outline-offset: 0; 
+}
+
+.input-phone-num-inner{
+    width:280px;
+    outline: none !important;
+    outline-offset: 0;
+}
+
+.input-text-inner{
+    width: 660px;
+    height: 92px;
+    outline: none !important;
+}
+
+.submit-button{
+    Width: 172px;
+    Height: 42px;
+    background-color: rgba(247, 248, 150, 1);
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 13px;
+}
+
+.underform{
+    display: flex;
+    position: absolute;
+    top: 362px;
+    left: 344px;
+    
+}
+
+.underform-text{
+
+}
+
+.underform-text-inner{
+  
+    font-style: italic;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+}
+
+.underform-button{
+    display: block;
+    margin-left: 150px;
 
 }
