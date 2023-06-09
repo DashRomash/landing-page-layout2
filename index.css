@@ -355,15 +355,24 @@ body{
     align-items: center;
     padding-left: 12px;
     padding-right: 12px;
-
 }
 
 .poisk-inner{
-    
     background-color: rgba(54, 68, 83, 1);
     outline: 0;
     color: rgba(201, 204, 207, 1);
     outline: none;
+    border: none;
+    width: 420px;
+}
+
+.pin-wrapper{
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color:  rgba(54, 68, 83, 1);
+  cursor: pointer;
 }
 
 .image5-wrapper{
@@ -372,7 +381,96 @@ body{
     height: 365px;
     display: flex;
     justify-content: flex-start;
+    position: relative;
+}
 
+.image5-neighbor{
+    background-color: rgba(39, 174, 96, 1);
+    width: 400px;
+    height: 367px;
+}
+
+.image5-neighbor-inner{
+    position: absolute;
+    background-color:#27804c;;
+    Width:402px;
+    Height:319px;
+    top: 24px;
+    right: 24px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.image5-neighbor-title{
+    margin-left: 24px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    color: rgba(247, 248, 150, 1);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+
+
+}
+
+.image5-neighbor-action{
+    margin-left: 24px;
+    color:rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.image5-neighbor-subtitle{
+    margin-left: 24px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 70px;
+}
+
+.image5-neighbor-btn{
+    display: flex;
+    margin-left: 24px;
+}
+
+.image5-neighbor-button{
+    background-color:  #27AE60;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+
+.image5-neighbor-button:hover{
+    opacity: 0.8;
+
+}
+
+.image5-neighbor-betweenbutton{
+    margin-left: 1px;
+    margin-right: 1px;
+    background-color:  #27AE60;
+    width: 52px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image5-neighbor-betweenbutton-inner{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
 
 }
 
