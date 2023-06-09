@@ -484,9 +484,9 @@ body{
     margin: 0 auto;
     width: 1152px;
     display: flex;
-    flex-direction: row;
     background-color: rgba(31, 43, 56, 1);
-    justify-content: space-between;
+    
+    
 }
 
 .arrow-wrapper{
@@ -501,10 +501,10 @@ body{
 .ad-lane__item{
     margin-left: 1px;
     display: flex;
-   align-items: center;
-   background-color: rgba(34, 47, 60, 1);
-   justify-content: center;
-   width: 100%;
+    align-items: center;
+    background-color: rgba(34, 47, 60, 1);
+    justify-content: center;
+    width: 100%;
 
 }
 
@@ -844,10 +844,67 @@ display: flex;
     grid-row-start: span 2;
     grid-column-start: span 2;
     cursor: pointer;
+    background-color: rgba(39, 174, 96, 1);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-left: 23px;
+    
 }
 
 .button-1:hover{
     opacity: 0.7;
+}
+
+.button-1-img{
+    position: absolute;
+    left: 183px;
+
+}
+
+.button-1-title{
+    margin-right: 250px;
+    display: block;
+    margin-top: 71px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    text-transform: uppercase;
+    letter-spacing: -0.005em;
+    color:rgba(255, 255, 255, 1);
+}
+
+.button-1-title-yellow{
+    color: rgba(247, 248, 150, 1);
+}
+
+.button-1-subtitle{
+    margin-right: 200px;
+    display: block;
+    margin-bottom: 17px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.button-1-footer{
+    display: flex;
+    margin-left: 250px;
+}
+
+.button-1-footer-img{
+    margin-right: 15px;
+
+}
+
+.button-1-footer-text{
+   
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+
 }
 
 .button-2{
