@@ -1044,7 +1044,6 @@ display: flex;
 
 .produser-list-title{
     display: flex;
-    
     width: 100%;
     margin-left: 144px;
     font-size: 24px;
@@ -1971,86 +1970,32 @@ align-items: center;
     margin-left: 20px;
 }
 
-.form-container{
+.form{
     position: absolute;
-    left: 344px;
-    top: 100px;
+    top: 94px;
     width: 712px;
-    height: 250px;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    column-gap: 24px;
-    row-gap: 0px;
-    justify-items: start;
-    align-items: center;
+    height: 290px;
+    margin-left: 364px;
+    margin-right: 364px;
+    padding: 24px 24px 0px 24px;
+
+
 }
 
-.form-text{
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 22px;
-    color: #FFFFFF;
-    align-self: end;
+.label{
+
 }
 
-.input-name{
-    width: 290px;
-    height: 20px;
-    background-color: #FFFFFF;
-    border-radius: 3px;
-    padding: 12px;
+.input1{
+
 }
 
-.input-phone-num{
-    width: 290px;
-    height: 20px;
-    background-color: #FFFFFF;
-    border-radius: 3px;
-    padding: 12px;
+.input2{
+
 }
 
-.title-text{
-    grid-column: span 2;
-}
+.formbutton{
 
-.input-text{
-    grid-column: span 2;
-    width: 668px;
-    height: 96px;
-    background-color: #FFFFFF;
-    border-radius: 3px;
-    padding: 12px;
-}
-
-.input-name-inner{
-    width:280px;
-    outline: none !important;
-    outline-offset: 0;
-     border: none; 
-}
-
-.input-phone-num-inner{
-    width:280px;
-    outline: none !important;
-    outline-offset: 0;
-    border: none;
-}
-
-.input-text-inner{
-    width: 660px;
-    height: 92px;
-    outline: none !important;
-    border: none;
-}
-
-.submit-button{
-    Width: 172px;
-    Height: 42px;
-    background-color: rgba(247, 248, 150, 1);
-    border-radius: 6px;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 13px;
 }
 
 .underform{

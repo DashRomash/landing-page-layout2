@@ -905,18 +905,18 @@
     <div class="feedback-form-container">
         <div class="feedback-form-background"><img src="img/image 26(1).png"></div>
         <h1 class="feedback-form-title">Остались вопросы?<span class="feedback-form-title-yellow">Оставьте заявку!</span></h1>
-        <div  class="form-container">
-            <div class="form-text"><b>Ваше имя</b></div>
-            <div class="form-text"><b>Номер телефона</b></div>
-            <div class="input-name"><input class="input-name-inner" type="text" placeholder="Ввод имени"></div>
-            <div class="input-phone-num"><input class="input-phone-num-inner" type="tel" placeholder="8 (812)  345-67-89"></div>
-            <div class="form-text title-text"><b>Ваш вопрос</b></div>
-            <div class="input-text"><input class="input-text-inner" type="text" placeholder="Сообщение"></div>
-        </div>
-        <div class="underform">
-            <div class="underform-text"><b  class="underform-text-inner">Гарантируем конфидициальность и целевое использование<br>данных</b></div>
-            <div class="underform-button"><input class="submit-button" type="submit" value="ОТПРАВИТЬ"></div>
-        </div>
+        <form action="#" method="get" class="form">
+            <label class="label"> Ваше имя
+                <input type="text" tabindex="1" name="username" class="input1">
+            </label>
+            <label class="label"> Номер телефона
+                <input type="tel" tabindex="2" name="userphone" class="input1">
+            </label>
+            <label class="label">Ваш вопросы
+                <textarea name="text" class="input2"></textarea>
+            </label>
+            <button type="submit" class="formbutton">Отправить</button>
+        </form>
     </div>
     <footer class="footer-container">
         <div class="footer-inner"></div>
