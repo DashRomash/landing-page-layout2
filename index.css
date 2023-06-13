@@ -60,7 +60,7 @@ body{
 
 }
 
-.pin-wrapper{
+.pin-wrapper1{
     margin-left: 10px;
 }
 
@@ -489,9 +489,8 @@ body{
     
 }
 
-.arrow-wrapper{
+.arrow-wrapper1{
     background-color: rgba(34, 47, 60, 1);
-
 }
 
 .arrow-inner{
@@ -700,15 +699,14 @@ display: flex;
     margin-top: 51px;
 }
 
+
 .main-title-green{
     padding-left: 20px;
     color: rgba(39, 174, 96, 1);
 }
 
 .main-items-wrapper{
-
     display: flex;
-    
     margin-left: 144px;
     margin-right: 144px;
     flex-wrap: wrap;
@@ -1045,13 +1043,21 @@ display: flex;
 }
 
 .produser-list-title{
-    display: block;
+    display: flex;
+    
+    width: 100%;
     margin-left: 144px;
     font-size: 24px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 28px; 
+    text-transform: uppercase;
+
 
 }
 
 .produser-list-subtitle{
+    margin-left: 300px;
     display: block;
     margin-right: 144px;
     color: rgba(187, 142, 52, 1);
@@ -1466,6 +1472,7 @@ display: flex;
     color: #798797;
     margin-bottom: 24px;
     margin-left: 144px;
+    margin-right: 144px;
 }
 
 .grey500-text{
@@ -1865,10 +1872,6 @@ align-items: center;
     display: flex;
     flex-direction: column;
     margin-bottom: 44px;
-}
-
-.article-img{
-
 }
 
 .article-item-title{
