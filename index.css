@@ -1970,6 +1970,13 @@ align-items: center;
     margin-left: 20px;
 }
 
+.form-wrapper{
+    position: absolute;
+    top: 94px;
+    width: 712px;
+    height: 290px;
+}
+
 .form{
     position: absolute;
     top: 94px;
@@ -1978,20 +1985,48 @@ align-items: center;
     margin-left: 364px;
     margin-right: 364px;
     padding: 24px 24px 0px 24px;
+}
 
-
+.form-flex{
+    display: flex;
+    justify-content: space-between;
 }
 
 .label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: #FFFFFF;
 
+}
+
+.input-wrap{
+    width: 320px;
+    height: 44px;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+}
+
+.input2-wrap{
+    width: 664px;
+    height: 96px;
+    background-color: #FFFFFF;
+    border-radius: 3px;
 }
 
 .input1{
-
+    display: block;
+    width: 296px;
+    padding: 12px;
 }
 
 .input2{
-
+    padding: 12px;
+    display: block;
+    Width: 640px;
+    Height: 72px;
 }
 
 .formbutton{

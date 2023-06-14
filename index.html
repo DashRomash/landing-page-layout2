@@ -905,18 +905,28 @@
     <div class="feedback-form-container">
         <div class="feedback-form-background"><img src="img/image 26(1).png"></div>
         <h1 class="feedback-form-title">Остались вопросы?<span class="feedback-form-title-yellow">Оставьте заявку!</span></h1>
-        <form action="#" method="get" class="form">
-            <label class="label"> Ваше имя
-                <input type="text" tabindex="1" name="username" class="input1">
-            </label>
-            <label class="label"> Номер телефона
-                <input type="tel" tabindex="2" name="userphone" class="input1">
-            </label>
-            <label class="label">Ваш вопросы
-                <textarea name="text" class="input2"></textarea>
-            </label>
-            <button type="submit" class="formbutton">Отправить</button>
-        </form>
+        <div class="form-wrapper">
+            <form action="#" method="get" class="form">
+                <div class="form-flex">
+                    <label class="label"> Ваше имя
+                        <div class="input-wrap">
+                            <input type="text" tabindex="1" name="username" class="input1">
+                        </div>
+                    </label>
+                    <label class="label"> Номер телефона
+                        <div class="input-wrap">
+                            <input type="tel" tabindex="2" name="userphone" class="input1">
+                        </div>
+                    </label>
+                </div>
+                <label class="label">Ваш вопросы
+                    <div class="input2-wrap">
+                        <textarea name="text" class="input2" tabindex="3"></textarea>
+                    </div>
+                </label>
+                <button type="submit" class="formbutton">Отправить</button>
+            </form>
+        </div>
     </div>
     <footer class="footer-container">
         <div class="footer-inner"></div>
